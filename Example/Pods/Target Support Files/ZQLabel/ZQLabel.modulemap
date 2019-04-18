@@ -1,0 +1,6 @@
+framework module ZQLabel {
+  umbrella header "ZQLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}

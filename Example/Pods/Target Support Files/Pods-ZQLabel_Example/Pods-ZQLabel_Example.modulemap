@@ -1,0 +1,6 @@
+framework module Pods_ZQLabel_Example {
+  umbrella header "Pods-ZQLabel_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

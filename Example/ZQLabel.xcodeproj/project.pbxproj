@@ -40,7 +40,7 @@
 		156C05C3DBB58AB3A1475CD2 /* Pods-ZQLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZQLabel_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZQLabel_Tests/Pods-ZQLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		2D5161C71FC4279A32E160B0 /* Pods-ZQLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZQLabel_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZQLabel_Example/Pods-ZQLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4DBC5226177A7664D071D5BF /* Pods-ZQLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZQLabel_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZQLabel_Tests/Pods-ZQLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5A89B705180CFA71B1D9B8F9 /* ZQLabel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZQLabel.podspec; path = ../ZQLabel.podspec; sourceTree = "<group>"; };
+		5A89B705180CFA71B1D9B8F9 /* ZQLabel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZQLabel.podspec; path = ../ZQLabel.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* ZQLabel_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZQLabel_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,10 +61,10 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6911E37907643F24933D77FF /* Pods_ZQLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZQLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6BDB6D5ADA53D4AD14BAB419 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6BDB6D5ADA53D4AD14BAB419 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		948370C1180D8026AE6BB85D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		948370C1180D8026AE6BB85D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D88982A892EF10BADE1CF88D /* Pods_ZQLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZQLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5EB80A5823393A1B97E8D04 /* Pods-ZQLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZQLabel_Example.release.xcconfig"; path = "Target Support Files/Pods-ZQLabel_Example/Pods-ZQLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,7 +103,6 @@
 				156C05C3DBB58AB3A1475CD2 /* Pods-ZQLabel_Tests.debug.xcconfig */,
 				4DBC5226177A7664D071D5BF /* Pods-ZQLabel_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
