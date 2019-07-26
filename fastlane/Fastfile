@@ -6,6 +6,10 @@ tagName = options[:tag]
 targetName = options[:target]
 
 # 具体这个航道的actions
+
+#0 修改podspec的version
+version = version_bump_podspec(path: "ZQLabel.podspec", version_number: tagName)
+
 # 1. pod install
 cocoapods(
     clean: true,

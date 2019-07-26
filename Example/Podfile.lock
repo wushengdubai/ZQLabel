@@ -1,5 +1,5 @@
 PODS:
-  - ZQLabel (0.1.3)
+  - ZQLabel (0.1.4)
 
 DEPENDENCIES:
   - ZQLabel (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZQLabel: beb670f2a5370f6c2af149a6150803cd0db49f73
+  ZQLabel: b5604bc23103c2325ab4f45c45d9d870ac7ef9f6
 
 PODFILE CHECKSUM: a8527b3796aa78e9a0117c49b384e05bec7696e1
 
