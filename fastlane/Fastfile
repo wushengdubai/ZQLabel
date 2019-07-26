@@ -1,0 +1,39 @@
+desc 'ManagerLib 使用这个航道，可以快速管理自己的库的升级维护'
+# 使用 fastlane ManagerLib tag:0.1.0
+lane :ManagerLib do |options|
+
+tagName = options[:tag]
+# target.podspec
+targetName = options[:target]
+
+# 具体这个航道的actions
+# 1. pod install
+cocoapods(
+    clean: true,
+    podfile: "./Example/Podfile"
+)
+
+# 2. git add .
+git_add(path: ".")
+#    git commit -m "xxxx"
+git_commit(path: ".", message: "版本更新")
+#    git push origin master
+push_to_git_remote
+
+# 3. git tag 标签名称
+add_git_tag(
+tag: tagName
+)
+#    git push --tags
+push_git_tags
+
+# 4.pod spec lint
+pod_lib_lint(allow_warnings: true)
+#   pod trunk push xxx.podspec 提交到公有库
+pod_push
+
+#   pod repo push XXX xxx.podspec 提交到私有库
+#pod_push(path: "#{targetName}.podspec", repo: "ZQLabel")
+
+
+end

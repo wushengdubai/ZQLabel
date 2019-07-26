@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		051A69D89F3B65192F95882CFB8A8B8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		201070FCDA4976DB9C10BEAA9E3229CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		051A69D89F3B65192F95882CFB8A8B8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		10CFC55F9F6A3856365B8A9326DE754E /* ZQLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60924CC1777CE7D7BDF1AC75E157D4F1 /* ZQLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		262BC66BC41CD19713A488EE254CDDD5 /* Pods-ZQLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F103DD1881531A1B386803890124BDD3 /* Pods-ZQLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3116A70448E5AFE46DE58B2003B1A5FD /* Pods-ZQLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C84FCE504925199B86FFCE601AAE5EBA /* Pods-ZQLabel_Tests-dummy.m */; };
 		327F246A24B1B2437E24ADEAA3F3FCCA /* Pods-ZQLabel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B111E814735C4BAD3683231C67818462 /* Pods-ZQLabel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3EEC90E957165E883867C680158B797B /* ZQLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = D8FFC27F50E18EA68736684AD5A3EAB8 /* ZQLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		756BBD03B75E2047423D6179143431E2 /* ZQLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60924CC1777CE7D7BDF1AC75E157D4F1 /* ZQLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7A2B161F103979971FAF760DDF624C8B /* ZQLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F83E7E0152713CE51E79C08AA8BB98 /* ZQLabel.m */; };
-		E92420FC18FA202607553A88FE804E24 /* ZQLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F17584AB54668E2C2FB772B0117DCAEE /* ZQLabel-dummy.m */; };
-		F843BC00C3FCA1C04599642B7328C93D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		4B2A3D5AA21A514A5276DF1CDED67450 /* ZQLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F17584AB54668E2C2FB772B0117DCAEE /* ZQLabel-dummy.m */; };
+		C17BA90D5D547C4FF7124D116F507228 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		D0ABD2F5414CA37633A28D6DF9881C9A /* ZQLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F83E7E0152713CE51E79C08AA8BB98 /* ZQLabel.m */; };
+		DFDEBDC3ECE8839AE22A2640F3E010C7 /* ZQLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = D8FFC27F50E18EA68736684AD5A3EAB8 /* ZQLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F843BC00C3FCA1C04599642B7328C93D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		F9ECA812ED074E43A4DFF5E5226E4CD3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
 		FA880F9550DBEF7CBB89413CF1F6D7CC /* Pods-ZQLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A27EF7B1479768A2B7C7990D258E1A /* Pods-ZQLabel_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -45,9 +46,10 @@
 		16261C33E28C2E9E8A3CA12B2A9010C3 /* Pods-ZQLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZQLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		272125FAA3A3B0C0C94B969290A330D8 /* Pods-ZQLabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZQLabel_Tests.modulemap"; sourceTree = "<group>"; };
 		28337D5939A8F74965D68CB6BE5058A6 /* Pods-ZQLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZQLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		36A27EF7B1479768A2B7C7990D258E1A /* Pods-ZQLabel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZQLabel_Example-dummy.m"; sourceTree = "<group>"; };
 		38F83E7E0152713CE51E79C08AA8BB98 /* ZQLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZQLabel.m; path = ZQLabel/Classes/ZQLabel.m; sourceTree = "<group>"; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		47A0D85CF9E4E804108BA424ED4709E0 /* Pods-ZQLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZQLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4E39FF020A941A6B279C461D89A8CFA7 /* Pods-ZQLabel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZQLabel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5509F6BA65A2E1BA2C1DF659EF48BE51 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
@@ -74,19 +76,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4ED57ED9888BBEBF06398465C2A2B62F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C17BA90D5D547C4FF7124D116F507228 /* Foundation.framework in Frameworks */,
+				F9ECA812ED074E43A4DFF5E5226E4CD3 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		72D548E5772C4BC9A4DFCA2776D1C685 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				051A69D89F3B65192F95882CFB8A8B8E /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8D861C7DA414BD8DDA14B5661870C002 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				201070FCDA4976DB9C10BEAA9E3229CF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,6 +124,14 @@
 				CEE87F1877DE8719D1ABEA0702671EDD /* ZQLabel.podspec */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		9AD04EFD57A1B1683F36816143B3A674 /* Pods-ZQLabel_Example */ = {
@@ -162,14 +173,6 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		C5FA89E288DF41F2AA7C5519FA662277 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -201,18 +204,10 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				BB9064266ADE728F8807C677555117E8 /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				C5FA89E288DF41F2AA7C5519FA662277 /* Products */,
 				DC2048F9D93AAAB3A443B2F9E4F38826 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		DC2048F9D93AAAB3A443B2F9E4F38826 /* Targets Support Files */ = {
@@ -224,18 +219,18 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		005724E6D4F4767EAB5EABA3FA319882 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				756BBD03B75E2047423D6179143431E2 /* ZQLabel-umbrella.h in Headers */,
-				3EEC90E957165E883867C680158B797B /* ZQLabel.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3FA638EE3385324714701EA5CDF3745E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -252,17 +247,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C59436AE2047E979165A423511AF2EFA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10CFC55F9F6A3856365B8A9326DE754E /* ZQLabel-umbrella.h in Headers */,
+				DFDEBDC3ECE8839AE22A2640F3E010C7 /* ZQLabel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		00D2D5E24B146992BD7ABEC12729FD78 /* ZQLabel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BB770E1FA1CD4D7EDF6A1712233250F1 /* Build configuration list for PBXNativeTarget "ZQLabel" */;
+			buildConfigurationList = 6B63AC43F3479BD5911FDB5D02F4AC9A /* Build configuration list for PBXNativeTarget "ZQLabel" */;
 			buildPhases = (
-				005724E6D4F4767EAB5EABA3FA319882 /* Headers */,
-				BF036EA8E282F3E703CAF60A8ED89DDC /* Sources */,
-				8D861C7DA414BD8DDA14B5661870C002 /* Frameworks */,
-				822186DAEAEB6200CAD3B4C379B71FC6 /* Resources */,
+				C59436AE2047E979165A423511AF2EFA /* Headers */,
+				9A99643D8AF5638E0C290CBD9E55CBD7 /* Sources */,
+				4ED57ED9888BBEBF06398465C2A2B62F /* Frameworks */,
+				B00CCD9B6E8E5F9C1C7EF5C5AB11C5E7 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -347,14 +351,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		822186DAEAEB6200CAD3B4C379B71FC6 /* Resources */ = {
+		A58AD47E5C5D1F0407F8FB44B5C37CBC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A58AD47E5C5D1F0407F8FB44B5C37CBC /* Resources */ = {
+		B00CCD9B6E8E5F9C1C7EF5C5AB11C5E7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -372,20 +376,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9A99643D8AF5638E0C290CBD9E55CBD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B2A3D5AA21A514A5276DF1CDED67450 /* ZQLabel-dummy.m in Sources */,
+				D0ABD2F5414CA37633A28D6DF9881C9A /* ZQLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A41579334CB546E9FA0FEC3E2DDA68C4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3116A70448E5AFE46DE58B2003B1A5FD /* Pods-ZQLabel_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BF036EA8E282F3E703CAF60A8ED89DDC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E92420FC18FA202607553A88FE804E24 /* ZQLabel-dummy.m in Sources */,
-				7A2B161F103979971FAF760DDF624C8B /* ZQLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,7 +444,7 @@
 			};
 			name = Debug;
 		};
-		2CCE0A4A6324193D82DACBC3529AA191 /* Release */ = {
+		2A58E3E1CC9861022AB14C278C723796 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0D79D0FC8C1CF21AB806CB970E5AF03C /* ZQLabel.xcconfig */;
 			buildSettings = {
@@ -564,7 +568,7 @@
 			};
 			name = Release;
 		};
-		70EB8831598FDA970C0EB9E59F5A8015 /* Debug */ = {
+		55F4EBA127BB8D892AE2338A9DE55404 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0D79D0FC8C1CF21AB806CB970E5AF03C /* ZQLabel.xcconfig */;
 			buildSettings = {
@@ -756,11 +760,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BB770E1FA1CD4D7EDF6A1712233250F1 /* Build configuration list for PBXNativeTarget "ZQLabel" */ = {
+		6B63AC43F3479BD5911FDB5D02F4AC9A /* Build configuration list for PBXNativeTarget "ZQLabel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				70EB8831598FDA970C0EB9E59F5A8015 /* Debug */,
-				2CCE0A4A6324193D82DACBC3529AA191 /* Release */,
+				55F4EBA127BB8D892AE2338A9DE55404 /* Debug */,
+				2A58E3E1CC9861022AB14C278C723796 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
