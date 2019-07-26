@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZQLabel'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'ZQLabel: 扩展Label的用法，包含添加下划线、行间距、文字点击、文字颜色等'
 
 # This description is used to generate tags and improve search results.
