@@ -19,7 +19,7 @@ or alternatively using `brew cask install fastlane`
 ```
 fastlane ManagerLib
 ```
-ManagerLib 使用这个航道，可以快速管理自己的库的升级维护
+ManagerLib 使用这个航道，可以快速管理自己的库的升级维护。使用 fastlane ManagerLib tag:0.1.0
 
 ----
 
