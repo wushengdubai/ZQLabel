@@ -1,4 +1,4 @@
-desc 'ManagerLib 使用这个航道，可以快速管理自己的库的升级维护。先修改podspec中的version,再使用 fastlane ManagerLib tag:0.1.0'
+desc 'ManagerLib 使用这个航道，可以快速管理自己的库的升级维护。使用 fastlane ManagerLib tag:0.1.0'
 lane :ManagerLib do |options|
 
 tagName = options[:tag]
@@ -33,10 +33,10 @@ push_git_tags
 # 4.pod spec lint
 pod_lib_lint(allow_warnings: true)
 #   pod trunk push xxx.podspec 提交到公有库
-pod_push
+pod_push(allow_warnings: true)
 
 #   pod repo push XXX xxx.podspec 提交到私有库
-#pod_push(path: "#{targetName}.podspec", repo: "ZQLabel")
+#pod_push(path: "#{targetName}.podspec", repo: "ZQLabel", allow_warnings: true)
 
 
 end

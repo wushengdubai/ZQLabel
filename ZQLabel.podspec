@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZQLabel'
-  s.version          = '0.1.4'
-  s.summary          = 'ZQLabel: 扩展Label的用法，包含添加下划线、行间距、文字点击、文字颜色等'
+  s.version          = '0.1.5'
+  s.summary          = 'ZQLabel: 扩展Label的用法'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+ZQLabel: 扩展Label的用法，包含添加文字点击、文字颜色，文字加粗、行间距、下划线、等
                        DESC
 
   s.homepage         = 'https://github.com/wushengdubai/ZQLabel'
