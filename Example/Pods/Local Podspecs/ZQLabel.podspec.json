@@ -1,7 +1,7 @@
 {
   "name": "ZQLabel",
   "version": "0.1.0",
-  "summary": "A short description of ZQLabel.",
+  "summary": "ZQLabel: 扩展Label的用法，包含添加下划线、行间距、文字点击、文字颜色等",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/wushengdubai/ZQLabel",
   "license": {
@@ -9,7 +9,7 @@
     "file": "LICENSE"
   },
   "authors": {
-    "wushengdubai": "markzhang@tcl.com"
+    "wushengdubai": "1012740269@qq.com"
   },
   "source": {
     "git": "https://github.com/wushengdubai/ZQLabel.git",

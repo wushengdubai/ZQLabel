@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "ZQLabel.h"
 
 FOUNDATION_EXPORT double ZQLabelVersionNumber;
 FOUNDATION_EXPORT const unsigned char ZQLabelVersionString[];
