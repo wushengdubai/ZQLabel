@@ -57,13 +57,13 @@ module Fastlane
                                        description: "需要被删除的tag版本", # a short description of this parameter
                                        is_string: true),
           FastlaneCore::ConfigItem.new(key: :rL,
-                                       options:true,
+                                       optional:true,
                                        description: "是否需要删除本地标签",
                                        is_string: false, # true: verifies the input is a string, false: every kind of value
                                        default_value: true), # the default value if the user didn't provide one
          FastlaneCore::ConfigItem.new(key: :rR,
                                      description: "是否删除远程标签",
-                                     options:true, # 是不是可以省略
+                                     optional:true, # 是不是可以省略
                                      is_string: false,
                                      default_value: true)
         ]
