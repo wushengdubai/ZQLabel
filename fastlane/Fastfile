@@ -1,4 +1,4 @@
-desc 'ManagerLib 使用这个航道，可以快速管理自己的库的升级维护。使用 fastlane ManagerLib tag:0.1.0'
+desc 'ManagerLib 使用这个航道，可以快速管理自己的库的升级维护。使用：fastlane ManagerLib tag:0.1.0'
 lane :ManagerLib do |options|
 
 tagName = options[:tag]
@@ -19,11 +19,18 @@ cocoapods(
 # 2. git add .
 git_add(path: ".")
 #    git commit -m "xxxx"
-git_commit(path: ".", message: "版本更新")
+git_commit(path: ".", message: "版本#{tagName} 升级维护")
 #    git push origin master
 push_to_git_remote
 
-# 3. git tag 标签名称
+# 3.1 git tag 标签名称，如果存在，则删除
+if git_tag_exists(tag: tagName)
+# 执行删除标签
+  UI.message("发现 #{tageName} 已经存在，即将删除 🚀")
+remove_tag(tag: tagName)
+end
+
+# 3.2 新增标签
 add_git_tag(
 tag: tagName
 )
