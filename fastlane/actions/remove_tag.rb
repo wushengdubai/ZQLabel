@@ -19,7 +19,7 @@ module Fastlane
         
         # 2、删除本地的tag
         if isRemoveLocalTag
-            cmds << "git tag -d #{tagName}"
+            cmds << "git tag -d #{tagName} "
         end
     
         #  3、删除远程tag
@@ -28,7 +28,7 @@ module Fastlane
         end
 
         # 4、执行数组中的命令
-        result = Actions.sh(cmds.join('&'))
+        result = Actions.sh(cmds.join('&'));
         UI.message("执行完毕 remove_tag的操作 🚀 ")
         return result;
         # sh "shellcommand ./path"
@@ -42,7 +42,11 @@ module Fastlane
 
       def self.description
       # 对于当前Action的简短描述
-        "删除本地tag 以及远程tag"
+        "删除本地tag 以及远程tag."
+      end
+
+      def self.details
+        "我们可以使用这个action,来删除本地标签和远程标签，但是必须传值标签"
       end
 
       def self.available_options
