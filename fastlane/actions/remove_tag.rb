@@ -48,8 +48,6 @@ module Fastlane
       def self.available_options
         # Define all options your action supports. 
         # 这里是这个Action需要的入参，是同构数组进行分割的，看下面每一个入参的描述的信息，可以大概知道每一个入参的相关配置信息是干啥的
-
-        # Below a few examples
         [
           FastlaneCore::ConfigItem.new(key: :tag,
                                        description: "需要被删除的tag版本", # a short description of this parameter
@@ -70,9 +68,6 @@ module Fastlane
       def self.output
         # Define the shared values you are going to provide
         # Example
-        [
-          ['REMOVE_TAG_CUSTOM_VALUE', 'A description of what this value contains']
-        ]
       end
 
       def self.return_value
