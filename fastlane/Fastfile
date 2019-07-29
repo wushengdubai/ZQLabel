@@ -41,7 +41,7 @@ push_git_tags
 # 4.pod spec lint
 pod_lib_lint(allow_warnings: true)
 #   pod trunk push xxx.podspec 提交到公有库
-pod_push(allow_warnings: true)
+pod_push()
 
 #   pod repo push XXX xxx.podspec 提交到私有库
 #pod_push(path: "#{targetName}.podspec", repo: "ZQLabel", allow_warnings: true)
