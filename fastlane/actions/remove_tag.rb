@@ -6,7 +6,7 @@ module Fastlane
 
     class RemoveTagAction < Action
         def self.run(params)
-        # fastlane will take care of reading in the parameter and fetching the environment variable:
+        # 首先在fastlane文件下执行 $fastlane new_cation --> 命名actionName --> 编写命令
         # 以下是最终要执行的内容
         
         # 0.获取参数
@@ -24,7 +24,7 @@ module Fastlane
     
         #  3、删除远程tag
         if isRemoveRemoteTag
-            cmds << "git push origin :#{tagname}"
+            cmds << "git push origin :#{tagName}"
         end
 
         # 4、执行数组中的命令
@@ -42,14 +42,7 @@ module Fastlane
 
       def self.description
       # 对于当前Action的简短描述
-        "A short description with <= 80 characters of what this action does"
-      end
-
-      def self.details
-      # 对于当前Action的详细描述
-        # Optional:
-        # this is your chance to provide a more detailed description of this action
-        "You can use this action to do cool things..."
+        "删除本地tag 以及远程tag"
       end
 
       def self.available_options
