@@ -27,8 +27,8 @@ push_to_git_remote
 if git_tag_exists(tag: tagName)
 # 执行删除标签
   UI.message("发现 #{tagName} 已经存在，即将删除 🚀")
-remove_tag(tag: tagName, rL: true, rR: true)
-# remove_tag(tag: tagName)
+#remove_tag(tag: tagName, rL: true, rR: true)
+remove_tag(tag: tagName)
 end
 
 # 3.2 新增标签
